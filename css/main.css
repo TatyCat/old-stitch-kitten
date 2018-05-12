@@ -96,12 +96,12 @@ textarea {
 /* ==========================================================================
    Tatyanna's custom styles
    ========================================================================== */
-
-body,h1,h2,h3,h4,h5,h6 {font-family: Helvetica, sans-serif}
+/*All*/
 .myLink {display: none}
 
 *{
-  text-decoration: none !important;
+    text-decoration: none !important;
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
 
 .center{
@@ -113,43 +113,106 @@ body,h1,h2,h3,h4,h5,h6 {font-family: Helvetica, sans-serif}
     margin-right: auto;
 }
 
-nav{
+/*Navigation - Top*/
+#nav{
     border-bottom: 1px solid grey;
+    text-align: left;
+    padding-left: 10%;
+    font-size: 1.7em;
+    padding-top: 1.6%;
+    background-color: #fffff5;
+    /*background-color: #f9f9e6;*/
 }
 
-.logo{
+#logo{
+    color: #f2552c;
     font-family: fantasy;
-    padding-top: .7em;
-    text-align: center;
-    /*margin-bottom: -.1em;*/
-    float:none;
-    /*margin: auto;*/
-    padding-left: 2em;
-    font-size: 1.4em;
-    color: deepskyblue;
 }
 
-.inline{
+
+/*Pattern*/
+.patternText{
+    /*color: #ff145e;*/
+    color: black;
+    font-size: 1.3em;
+    margin-left: 10%;
+}
+
+.instructionText{
+    color: white;
+    font-size: 1.17em;
+}
+
+.stitchBorder {
+    width: 12pc;
+    border-bottom: #7e7e7e 2px dashed;
+}
+
+.rowCounter{
+    margin-left: 10vw;
+}
+
+.counter{
+    display: inline-block;
+    padding: 10px 43px;
+    margin-top: 1%;
+}
+
+.rowNumber{
     display: inline;
+    font-size: 1.5em;
+    padding: 8px;
+    margin: 8px;
 }
 
-.signUpLogOut{
-    text-align: right;
+
+
+
+/*Add Pattern Header*/
+.headerSpace{
+    padding-bottom: 3%;
+}
+
+#stepNumber{
+    width: 15%;
+    text-align: center;
+}
+
+#stepWidth{
+    width: 65%;
+}
+
+#patternTitle{
+    padding-top: 1%;
+    font-size: 1.3em;
+    color: #506506;
+}
+
+.headerStitchBorder{
+    width: 12pc;
+    border-bottom: white 2px dashed;
+}
+
+
+/*Footer*/
+#footer{
     font-size: .6em;
+    line-height: .6;
+    background-color: #fffff5;
+    /*background-color: #efefe6;*/
+    border-top: #222222 1px solid;
+    padding-bottom: 1.5%;
+
+    width: 100%;
+
+    right: 0;
+    bottom: 0%;
+    left: 0;
 }
 
-nav a:hover{
-    color: darkgray;
-}
 
 
-
-
-
-
-
-
-
+/*Taty's CSS END*/
 
 /* ==========================================================================
    Helper classes

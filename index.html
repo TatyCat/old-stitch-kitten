@@ -15,15 +15,13 @@
         <link rel="stylesheet" href="css/main.css">
 
         <!--W3 Schools Template-->
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
         <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
 
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
-
-
     </head>
     <body>
         <!--[if lte IE 9]>
@@ -32,47 +30,82 @@
 
         <!-- Tatyanna's Code -->
 
-        <!--NAV BAR/LOGO-->
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-                <a href="#" class="logo center text-center w3-hover-text-pink"><i class="fas fa-pencil-alt"></i>Stitch Kitten</a>
-                <a class=" signUpLogOut w3-right-align" href="#">Sign In </a>
-            </div>
+        <!--LOGO-->
+        <nav id="nav">
+            <a id="logo"><i class="fas fa-pencil-alt"></i>Stitch Kitten</a>
         </nav>
 
-
         <!--Header-->
-        <br>
         <header>
-            <div class="">
+            <div class="w3-container w3-amber w3-card-4">
+                <div class="headerSpace">
+                    <p class="headerStitchBorder center instructionText">Add a Pattern</p>
 
-                <i class="far fa-heart"></i>
-                <i class="far fa-lightbulb"></i>
-                <i class="fas fa-lightbulb"></i>
-                <i class="far fa-sticky-note"></i>
-                <i class="fas fa-trophy"></i>
-
+                    <form class="w3-container w3-margin w3-center">
+                        <input type="number" placeholder="#" id="stepNumber">
+                        <input type="text" placeholder="Enter Step..." id="stepWidth">
+                        <button class="w3-small w3-border w3-border-grey w3-round w3-padding-small w3-button w3-hover-green w3-white">Add</button>
+                    </form>
+                </div>
             </div>
         </header>
 
-    <div class="">
+
         <article>
+            <div class="w3-center w3-container">
+                <h1 id="patternTitle" class="stitchBorder center">My WIP Project</h1>
+            </div>
 
+                <p class="patternText">1. Cast on 20 Stitches.</p>
+                <div class="rowCounter">
+                    <button class="w3-border w3-border-light-green w3-small patternButton w3-ripple w3-btn w3-round w3-hover-light-green">Row Counter</button>
+                    <button class="w3-text-red w3-small w3-btn w3-round w3-ripple w3-border w3-border-red">Delete Step</button>
+                </div>
+
+                <p class="patternText">2. Knit 2, Purl 2 for 40 Rows.</p>
+                <div class="rowCounter">
+                    <button class="w3-border w3-border-light-green w3-small patternButton w3-ripple w3-btn w3-round w3-hover-light-green">Close Counter</button>
+                    <button class="w3-text-red w3-small w3-btn w3-round w3-ripple w3-border w3-border-red">Delete Step</button>
+
+                    <br>
+                    <div class="counter w3-card">
+                        <button class="w3-button w3-circle w3-white w3-border w3-border-light-green w3-hover-light-green">-</button>
+                        <p class="rowNumber">1</p>
+                        <button class="w3-button w3-circle w3-white w3-border w3-border-light-green w3-hover-light-green">+</button>
+
+                        <p class="center" ><button class="w3-text-red w3-small w3-btn w3-round w3-ripple w3-border w3-border-red" >Reset</button></p>
+                    </div>
+
+                </div>
+
+                <p class="patternText">3. Knit for 39 Rows.</p>
+                <div class="rowCounter">
+                    <button class="w3-border w3-border-light-green w3-small patternButton w3-ripple w3-btn w3-round w3-hover-light-green">Row Counter</button>
+                    <button class="w3-text-red w3-small w3-btn w3-round w3-ripple w3-border w3-border-red">Delete Step</button>
+                </div>
+                <br>
+                <p class="center"><button class="w3-text-red w3-btn w3-center w3-tiny w3-border w3-border-red w3-round">Clear Pattern</button></p>
+            </div>
         </article>
-    </div>
+    <!--<i class="far fa-heart"></i>
+    <i class="far fa-lightbulb"></i>
+    <i class="fas fa-lightbulb"></i>
+    <i class="far fa-sticky-note"></i>
+    <i class="fas fa-trophy"></i>-->
 
-        <footer class="center">
-            <p><i class="fas fa-tree"></i></p>
-            <p><i class="fas fa-code"></i> By Tatyanna Cobb</p>
-            <p>Follow Me On: </p>
-            <p><a><i class="fab fa-twitter"></i></a>
-                <a><i class="fab fa-linkedin-in"></i></a>
-                <a><i class="fas fa-envelope"></i></a>
-            </p>
-            <br>
-            <p>Copyright &copy;2018 Tatyanna Cobb. All rights reserved. </p>
-        </footer>
 
+        <div id="footer" class="w3-container">
+            <footer class="center remove">
+                <p><i class="fas fa-tree"></i></p>
+                <p><i class="fas fa-code"></i> By Tatyanna Cobb</p>
+                <p>Follow Me On: </p>
+                <p><a><i class="fab fa-twitter"></i></a>
+                    <a><i class="fab fa-linkedin-in"></i></a>
+                    <a><i class="fas fa-envelope"></i></a>
+                </p>
+                <p>Copyright &copy;2018 Tatyanna Cobb. All rights reserved. </p>
+            </footer>
+        </div>
         <!---->
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
