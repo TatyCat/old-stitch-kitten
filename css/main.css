@@ -220,15 +220,11 @@ textarea {
 
 
 
-@media only screen
-and (device-width : 375px)
-and (device-height : 812px)
-and (-webkit-device-pixel-ratio : 3)  {
+@media screen and (max-width: 600px) {
     .patternText {
-        color: red;
         font-size: 1.3em;
         margin-left: 10%;
-        margin-right: 15%;
+        margin-right: 11%;
         white-space: pre-wrap;
         word-break: keep-all;
     }
