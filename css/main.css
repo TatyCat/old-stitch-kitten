@@ -136,6 +136,9 @@ textarea {
     color: black;
     font-size: 1.3em;
     margin-left: 10%;
+    margin-right: 10%;
+    white-space: pre-wrap;
+    word-break: keep-all;
 }
 
 .instructionText{
