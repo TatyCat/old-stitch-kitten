@@ -218,6 +218,22 @@ textarea {
 }
 
 
+
+
+@media only screen
+and (device-width : 375px)
+and (device-height : 812px)
+and (-webkit-device-pixel-ratio : 3)  {
+    .patternText {
+        color: red;
+        font-size: 1.3em;
+        margin-left: 10%;
+        margin-right: 15%;
+        white-space: pre-wrap;
+        word-break: keep-all;
+    }
+}
+
 /*Taty's CSS END*/
 
 /* ==========================================================================
