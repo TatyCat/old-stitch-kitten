@@ -202,7 +202,6 @@ textarea {
     /*background-color: #efefe6;*/
     border-top: #222222 1px solid;
     padding-bottom: 1.5%;
-
     width: 100%;
 
     right: 0;
@@ -210,6 +209,10 @@ textarea {
     left: 0;
 }
 
+.socialMedia{
+    padding-right: 5px;
+    font-size: 2em;
+}
 
 
 /*Taty's CSS END*/
