@@ -1,12 +1,30 @@
 
-// Blank Slate upon load, remove header/title
-// window.onload = function(){
-    // document.getElementById('patternTitle').style.visibility = "hidden";
-// }
+
 
 
 // Click Add Button To Add Pattern
-// Upon successful 1st step add, show the patternTitle again #visible
+    // Blank Slate upon load, header/title removed
+    // Upon successful 1st step add, show the patternTitle again #visible
+document.getElementById("addButton").addEventListener("click", function (){
+    document.getElementById('patternTitle').innerHTML = '<h1 id="patternTitleText" class="stitchBorder center">My WIP Project</h1>';
+});
+
+
+//Open Counter
+var openCounterButton = function(){
+    document.getElementById('rowCountAdd').innerHTML =
+        '<div id="rowCounterCard">'+
+        '<div class="counter w3-card rowCounter">'+
+        '<button class="w3-button w3-circle w3-white w3-border w3-border-light-green w3-hover-light-green" id="rowMinus">' +'-' + '</button>'+
+        '<p class="rowNumber" id="rowCount">'+'</p>'+
+        '<button class="w3-button w3-circle w3-white w3-border w3-border-light-green w3-hover-light-green" id="rowPlus">'+'+'+'</button>'+
+        '<p class="center"><button class="w3-text-red w3-small w3-btn w3-round w3-ripple w3-border w3-border-red"  id="rowReset">Reset</button>'+'</p>' +
+        +'</div>'+
+        '</div>';
+
+};
+
+document.getElementById("openCounter").addEventListener("click", openCounterButton);
 
 
 //Click Row Counter Button To Count the Stitch for the Pattern Step
