@@ -1,0 +1,30 @@
+{
+  "name": "stitch-kitten",
+  "version": "1.0.0",
+  "description": "Keep track of your stitches!",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "dev": "node ./index.html",
+    "serve": "node ./js/app.js",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TatyCat/stitch-kitten.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TatyCat/stitch-kitten/issues"
+  },
+  "homepage": "https://github.com/TatyCat/stitch-kitten#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "path": "^0.12.7"
+  }
+}
+
